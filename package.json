@@ -1,20 +1,14 @@
 {
   "name": "azkar",
   "version": "1.0.0",
+  "description": "Discord Azkar Bot",
   "main": "azkar.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ahadxx218/azkar-bot.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ahadxx218/azkar-bot/issues"
-  },
-  "homepage": "https://github.com/ahadxx218/azkar-bot#readme",
-  "description": ""
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "node-cron": "^3.0.2"
+  }
 }
+
