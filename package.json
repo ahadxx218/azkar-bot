@@ -4,7 +4,7 @@
   "description": "Discord Azkar Bot",
   "main": "azkar.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node azkar.js"
   },
   "dependencies": {
     "discord.js": "^14.13.0",
